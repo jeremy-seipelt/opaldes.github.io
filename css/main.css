@@ -5,5 +5,5 @@
 .index-panel {
   margin-right:35px;
   height:440px;
-  width:20%;
+  width:20% !important;
 }
