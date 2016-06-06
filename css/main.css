@@ -31,6 +31,7 @@ body {
   text-decoration:none;
 }
 
-row .panel-heading-core{
+.panel-heading-core{
+  font-size:112dp;
 }
 
