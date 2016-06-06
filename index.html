@@ -8,7 +8,7 @@ title: Home
  	   <div class="panel-heading">How to get started</div>
  		 <div class="panel-body">
      			   <ul>
-      {% for post in site.tags.getstarted %}
+      {% for post in site.tags.getstarted reversed%}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
