@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Opaldes
+title: Home
 ---
 
  <div class="row">
@@ -19,7 +19,11 @@ title: Opaldes
  	<div class="panel panel-default index-panel col-md-2">
  	   <div class="panel-heading">Panel heading without title</div>
  		 <div class="panel-body">
- 			   Basic panel example
+      {% for post in site.tags.marketing %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
  		 </div>
  	</div>
  	<div class="panel panel-default index-panel col-md-2">
