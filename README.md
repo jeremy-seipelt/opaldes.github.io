@@ -1,4 +1,2 @@
 # opaldes.github.io
-My Jekyll sandbox
-
-<opaldes.github.io>
+My Jekyll sandbox <https://opaldes.github.io>
