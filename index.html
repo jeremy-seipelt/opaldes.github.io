@@ -9,7 +9,7 @@ title: Home
         <div class="panel index-panel">
             <div class="panel-heading panel-heading-core">How to get started</div>
             <div class="panel-body">
-                <ul>
+                <ul class="no-decorations">
                     {% for post in site.tags.getstarted reversed%}
                     <li>
                         <a href="{{ post.url }}">{{ post.title }}</a>
