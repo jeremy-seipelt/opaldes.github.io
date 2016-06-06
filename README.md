@@ -1,3 +1,3 @@
 # opaldes.github.io
 
-Check the site out at <http://www.example.com>.
+Check the site out at <http://opaldes.github.io>.
