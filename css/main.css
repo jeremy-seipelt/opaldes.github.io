@@ -42,3 +42,6 @@ header {
   
     padding: 0 15px;
 }
+.no-decorations li {
+  list-style-type:none;
+}
