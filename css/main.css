@@ -20,3 +20,8 @@
   color:#ffffff;
   text-decoration:none;
 }
+
+.header a:hover {
+  color:#f3f3f3;
+  text-decoration:none;
+}
