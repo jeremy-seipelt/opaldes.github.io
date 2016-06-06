@@ -1,2 +1,4 @@
 name: opaldes
 markdown: kramdown
+baseurl: /home/ 
+url: http://opaldes.github.io
