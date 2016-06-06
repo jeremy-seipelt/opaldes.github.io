@@ -10,8 +10,15 @@ layout: default
     </div>
   </div>
   <div class="col-md-3">
-    <div class="list-group">
-  </div>
+    <ul>
+      {% assign currTag = page.tag %}
+      {% for post in site.tags.currTag %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+</div>
 
   </div>
   
