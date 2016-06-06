@@ -1,3 +1,7 @@
+body {
+  background-color:#f3f3f3 ;
+}
+
 .header {
   background-color:#2196F3;
   color:#FFFFFF;
@@ -24,3 +28,5 @@
   color:#f3f3f3;
   text-decoration:none;
 }
+
+
