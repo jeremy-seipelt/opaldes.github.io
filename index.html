@@ -19,7 +19,7 @@ title: Home
  	<div class="panel panel-default index-panel col-md-2">
  	   <div class="panel-heading">Marketing</div>
  		 <div class="panel-body">
-      {% for post in site.tags.marketing %}
+      {% for post in site.tags.marketing reversed%}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
