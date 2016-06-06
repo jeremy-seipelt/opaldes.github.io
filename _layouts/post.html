@@ -11,8 +11,7 @@ layout: default
   </div>
   <div class="col-md-3">
     <div class="list-group">
-    {% assign custom = page.tag %}
-    {% for post in site.tags.custom %}
+    {% for post in site.tags.marketing %}
     <a href="{{post.url}}" class="list-group-item {% if page.url == post.url %} active {% endif %} ">
       {{post.title}}
     </a>
