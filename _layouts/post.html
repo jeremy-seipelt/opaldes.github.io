@@ -11,13 +11,12 @@ layout: default
   </div>
   <div class="col-md-3">
     <div class="list-group">
-    <a href="#" class="list-group-item active">
-      Cras justo odio
+    {% assign custom = page.tag %}
+    {% for post in site.tags.custom %}
+    <a href="{{post.url}}" class="list-group-item {% if page.url == post.url %} active {% endif %} ">
+      {{post.title}}
     </a>
-    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-    <a href="#" class="list-group-item">Morbi leo risus</a>
-    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-    <a href="#" class="list-group-item">Vestibulum at eros</a>
+    {% endif %}
   </div>
 
   </div>
