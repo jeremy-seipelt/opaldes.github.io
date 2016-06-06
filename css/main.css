@@ -29,8 +29,7 @@ body {
   text-decoration:none;
 }
 
-.panel-heading-core{
-  color:#ffffff;
-  background-color:#2196F3;
+row .panel-heading-core{
+ border:none;
 }
 
