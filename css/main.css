@@ -1,7 +1,6 @@
 .header {
   background-color:#459df5;
   color:#FFFFFF;
-  margin-bottom:40px;
 }
 .index-panel {
   margin-right:35px;
@@ -11,4 +10,5 @@
 }
 .content-area {
   background-color:#F3F3F3;
+  padding-top:40px;
 }
