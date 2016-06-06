@@ -1,11 +1,11 @@
 body {
   background-color:#f3f3f3 !important;
 }
-
-.header {
-  background-color:#2196F3;
-  color:#FFFFFF;
+header {
+    background-color:#2196F3;
+    color:#FFFFFF;
 }
+
 .index-panel {
   height:440px;
   box-shadow:0 1px 2px 0 rgba(0,0,0,.25) !important;
