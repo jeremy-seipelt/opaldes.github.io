@@ -45,7 +45,3 @@ header {
 .no-decorations li {
   list-style-type:none;
 }
-
-#insert-toc #markdown-toc {
-  list-style-decorations-none
-}
