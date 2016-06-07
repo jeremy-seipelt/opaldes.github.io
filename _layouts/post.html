@@ -13,13 +13,15 @@ layout: default
     </div>
   </div>
   <div class="col-md-3">
+    
      <div class="panel">
       <div class="panel-heading">
-        <h3>{{ page.title }}</h3>
+        <h4>{{ page.title }}</h4>
       </div>
       <div class="panel-body" id="insert-toc">
       </div>
     </div>
+    
      <div class="list-group">
        {% for post in site.posts reversed%}
        {% if post.tags == page.tags %}
@@ -33,6 +35,7 @@ layout: default
         </a>
         {% endfor %}
     </div>
+    
 </div>
 
   </div>
