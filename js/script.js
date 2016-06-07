@@ -10,8 +10,8 @@ document.onscroll = function () {
   sticky= document.getElementById("custom-toc");
   coords = sticky.getBoundingClientRect();
   if (coords.top < 40) {
-    sticky.className= sticky.classname + "affix" 
+    sticky.className= sticky.className + "affix" 
   }else {
-    sticky.classname = sticky.classname.split("affix").join();
+    sticky.className = sticky.className.split("affix").join();
   };
 } 
