@@ -10,7 +10,7 @@ document.onscroll = function () {
   sticky = document.getElementById("custom-toc");
   header = document.getElementById("header");
   coords = header.getBoundingClientRect();
-  if (coords.top < 20) {
+  if (coords.top > 20) {
     sticky.className = sticky.className + " affix" 
     sticky.style = "top:38px;";
   }else{
