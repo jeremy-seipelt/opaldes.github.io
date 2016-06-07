@@ -10,35 +10,6 @@ tag: marketing
 Markdown: Syntax
 ================
 
-<ul id="ProjectSubmenu">
-    <li><a href="/projects/markdown/" title="Markdown Project Page">Main</a></li>
-    <li><a href="/projects/markdown/basics" title="Markdown Basics">Basics</a></li>
-    <li><a class="selected" title="Markdown Syntax Documentation">Syntax</a></li>
-    <li><a href="/projects/markdown/license" title="Pricing and License Information">License</a></li>
-    <li><a href="/projects/markdown/dingus" title="Online Markdown Web Form">Dingus</a></li>
-</ul>
-
-
-*   [Overview](#overview)
-    *   [Philosophy](#philosophy)
-    *   [Inline HTML](#html)
-    *   [Automatic Escaping for Special Characters](#autoescape)
-*   [Block Elements](#block)
-    *   [Paragraphs and Line Breaks](#p)
-    *   [Headers](#header)
-    *   [Blockquotes](#blockquote)
-    *   [Lists](#list)
-    *   [Code Blocks](#precode)
-    *   [Horizontal Rules](#hr)
-*   [Span Elements](#span)
-    *   [Links](#link)
-    *   [Emphasis](#em)
-    *   [Code](#code)
-    *   [Images](#img)
-*   [Miscellaneous](#misc)
-    *   [Backslash Escapes](#backslash)
-    *   [Automatic Links](#autolink)
-
 
 **Note:** This document is itself written using Markdown; you
 can [see the source for it by adding '.text' to the URL][src].
@@ -47,9 +18,9 @@ can [see the source for it by adding '.text' to the URL][src].
 
 * * *
 
-<h2 id="overview">Overview</h2>
+## Overview
 
-<h3 id="philosophy">Philosophy</h3>
+### Philosophy
 
 Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
 
@@ -77,7 +48,7 @@ used email.
 
 
 
-<h3 id="html">Inline HTML</h3>
+### Inline HTML
 
 Markdown's syntax is intended for one purpose: to be used as a
 format for *writing* for the web.
@@ -128,7 +99,7 @@ Unlike block-level HTML tags, Markdown syntax *is* processed within
 span-level tags.
 
 
-<h3 id="autoescape">Automatic Escaping for Special Characters</h3>
+### Automatic Escaping for Special Characters
 
 In HTML, there are two characters that demand special treatment: `<`
 and `&`. Left angle brackets are used to start tags; ampersands are
@@ -187,10 +158,10 @@ and `&` in your example code needs to be escaped.)
 * * *
 
 
-<h2 id="block">Block Elements</h2>
+## Block Elements
 
 
-<h3 id="p">Paragraphs and Line Breaks</h3>
+### Paragraphs and Line Breaks
 
 A paragraph is simply one or more consecutive lines of text, separated
 by one or more blank lines. (A blank line is any line that looks like a
@@ -216,7 +187,7 @@ work best -- and look better -- when you format them with hard breaks.
 
 
 
-<h3 id="header">Headers</h3>
+### Headers
 
 Markdown supports two styles of headers, [Setext] [1] and [atx] [2].
 
@@ -303,7 +274,7 @@ example, with BBEdit, you can make a selection and choose Increase
 Quote Level from the Text menu.
 
 
-<h3 id="list">Lists</h3>
+### Lists
 
 Markdown supports ordered (numbered) and unordered (bulleted) lists.
 
@@ -463,7 +434,7 @@ line. To avoid this, you can backslash-escape the period:
 
 
 
-<h3 id="precode">Code Blocks</h3>
+### Code Blocks
 
 Pre-formatted code blocks are used for writing about programming or
 markup source code. Rather than forming normal paragraphs, the lines
@@ -528,7 +499,7 @@ it's also easy to use Markdown to write about Markdown's own syntax.
 
 
 
-<h3 id="hr">Horizontal Rules</h3>
+### Horizontal Rules
 
 You can produce a horizontal rule tag (`<hr />`) by placing three or
 more hyphens, asterisks, or underscores on a line by themselves. If you
@@ -548,9 +519,9 @@ following lines will produce a horizontal rule:
 
 * * *
 
-<h2 id="span">Span Elements</h2>
+## Span Elements
 
-<h3 id="link">Links</h3>
+### Links
 
 Markdown supports two style of links: *inline* and *reference*.
 
@@ -705,7 +676,7 @@ you can add links without interrupting the narrative flow of your
 prose.
 
 
-<h3 id="em">Emphasis</h3>
+### Emphasis
 
 Markdown treats asterisks (`*`) and underscores (`_`) as indicators of
 emphasis. Text wrapped with one `*` or `_` will be wrapped with an
@@ -748,7 +719,7 @@ escape it:
 
 
 
-<h3 id="code">Code</h3>
+### Code
 
 To indicate a span of code, wrap it with backtick quotes (`` ` ``).
 Unlike a pre-formatted code block, a code span indicates code within a
@@ -804,7 +775,7 @@ to produce:
 
 
 
-<h3 id="img">Images</h3>
+### Images
 
 Admittedly, it's fairly difficult to devise a "natural" syntax for
 placing images into a plain text document format.
@@ -844,9 +815,9 @@ use regular HTML `<img>` tags.
 * * *
 
 
-<h2 id="misc">Miscellaneous</h2>
+## Miscellaneous
 
-<h3 id="autolink">Automatic Links</h3>
+### Automatic Links
 
 Markdown supports a shortcut style for creating "automatic" links for URLs and email addresses: simply surround the URL or email address with angle brackets. What this means is that if you want to show the actual text of a URL or email address, and also have it be a clickable link, you can do this:
 
@@ -879,7 +850,7 @@ will probably eventually start receiving spam.)
 
 
 
-<h3 id="backslash">Backslash Escapes</h3>
+### Backslash Escapes
 
 Markdown allows you to use backslash escapes to generate literal
 characters which would otherwise have special meaning in Markdown's
