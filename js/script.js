@@ -11,5 +11,5 @@ document.onscroll = function () {
   coords = sticky.getBoundingClientRect();
   if (coords.top < 40) {
     sticky.className = sticky.className + " affix" 
-  }:
+  };
 } 
