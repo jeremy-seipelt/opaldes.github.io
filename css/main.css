@@ -38,6 +38,11 @@ header {
 .float-right{
   float:right;
 }
+
+.float-left{
+  float:left;
+}
+
 .header .h1 {
   
     padding: 0 15px;
