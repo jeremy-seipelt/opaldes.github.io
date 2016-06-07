@@ -3,7 +3,7 @@ layout: post
 title: Marketing 102
 tags: marketing
 ---
-+ Toc
+1. Toc
  {:toc}
 
 
