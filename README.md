@@ -1,4 +1,3 @@
 # opaldes.github.io
 My Jekyll sandbox <https://opaldes.github.io>
--[title](Title)
 #Title
