@@ -8,9 +8,9 @@ window.onload = function () {
 
 document.onscroll = function () {
   sticky = document.getElementById("custom-toc");
-  header = document.getElementById("header");
-  coords = header.getBoundingClientRect();
-  if (coords.top < 20) {
+  content = document.getElementById("content");
+  coords = content.getBoundingClientRect();
+  if (coords.top <= 0) {
     sticky.className = sticky.className + " affix" 
     sticky.style = "top:38px;";
     console.log(coords)
