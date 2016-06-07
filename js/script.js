@@ -7,10 +7,14 @@ window.onload = function () {
 
 
 document.onscroll = function () {
-  sticky= document.getElementById("custom-toc");
-  coords = sticky.getBoundingClientRect();
-  if (coords.top < 40) {
+  sticky = document.getElementById("custom-toc");
+  header = document.getElementById("header");
+  coords = header.getBoundingClientRect();
+  if (coords.top < 20) {
     sticky.className = sticky.className + " affix" 
     sticky.style = "top:38px;";
+  }else{
+    sticky.className = sticky.className.split(' affix').join('');
+    sticky.style = "";
   };
 } 
