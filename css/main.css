@@ -45,3 +45,8 @@ header {
 .no-decorations li {
   list-style-type:none;
 }
+
+#header-icon {
+  width: 36px;
+  vertical-align: bottom;
+}
