@@ -9,9 +9,7 @@ window.onload = function () {
 document.onscroll = function () {
   sticky= document.getElementById("custom-toc");
   coords = sticky.getBoundingClientRect();
-  if (coords.top < 80) {
+  if (coords.top < 40) {
     sticky.className = sticky.className + " affix" 
-  }else {
-    sticky.className = sticky.className.split(" affix").join('');
-  };
+  }:
 } 
