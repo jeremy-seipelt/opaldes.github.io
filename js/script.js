@@ -6,7 +6,7 @@ window.onload = function () {
 }
 
 
-document.onscroll = funtion () {
+document.onscroll = function () {
   sticky= document.getElementById("custom-toc");
   coords = sticky.getBoundingClientRect();
   if (coords.top < 40) {
