@@ -10,8 +10,7 @@ document.onscroll = function () {
   sticky = document.getElementById("custom-toc");
   content = document.getElementById("content");
   coords = content.getBoundingClientRect();
-  widthToc = window.innerWidth - (coords.right + coords.left); 
-  console.log(window.innerWidth,coords.right,coords.left);
+  widthToc = sticky.offsetWidth; 
   if (coords.top <= 0) {
     sticky.className = sticky.className.split(' affix').join('');
     sticky.className = sticky.className + " affix" 
