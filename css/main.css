@@ -71,3 +71,7 @@ footer{
 .footer-content a {
   padding-right:15px;
 }
+
+.scroll {
+  overflow:scroll;
+}
