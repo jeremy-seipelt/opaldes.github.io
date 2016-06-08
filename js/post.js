@@ -22,8 +22,8 @@ window.addEventListener('resize', function(){
 
 
 document.addEventListener('scroll', function(){
-  sticky = document.getElementById("custom-toc");
-  content = document.getElementById("content");
+  sticky = document.getElementById("toc-panel");
+  content = document.getElementById("topics");
   coords = content.getBoundingClientRect();
   widthToc = sticky.offsetWidth; 
   console.log(window.innerWidth);
