@@ -7,7 +7,7 @@ window.onload = function () {
 
 bar = document.getElementById("content");
 if (bar.offsetHeight > window.innerHeight ) {
-  bar.classname = bar.classname + " scroll"
+  bar.className = bar.className + " scroll"
 };
 
 document.onscroll = function () {
