@@ -1,9 +1,15 @@
-window.onload = function () {
+window.addEventListener('load', function(){
   toc = document.getElementById('markdown-toc');
   console.log(toc);
   panel = document.getElementById('insert-toc');
   panel.appendChild(toc);
-}
+  
+  bar = document.getElementById("custom-toc");
+  if (bar.offsetHeight > window.innerHeight && !bar.className.includes('scroll')) {
+    bar.className = bar.className + " scroll";
+  };
+},true)
+
 window.addEventListener('resize', function(){
   console.log('RESIZE')
   bar = document.getElementById("custom-toc");
@@ -15,7 +21,7 @@ window.addEventListener('resize', function(){
 }, true)
 
 
-document.onscroll = function () {
+document.addEventListener('scroll', function(){
   sticky = document.getElementById("custom-toc");
   content = document.getElementById("content");
   coords = content.getBoundingClientRect();
@@ -32,4 +38,4 @@ document.onscroll = function () {
     sticky.className = sticky.className.split(' affix').join('');
     sticky.style = "";
   };
-} 
+},true) 
