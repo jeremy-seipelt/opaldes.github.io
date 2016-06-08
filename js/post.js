@@ -5,18 +5,18 @@ window.addEventListener('load', function(){
   panel.appendChild(toc);
   
   bar = document.getElementById("custom-toc");
-  if (bar.offsetHeight > window.innerHeight && !bar.className.includes('scroll')) {
-    bar.className = bar.className + " scroll";
+  if (bar.offsetHeight > window.innerHeight && !bar.className.includes('pre-scrollable')) {
+    bar.className = bar.className + " pre-scrollable";
   };
 },true)
 
 window.addEventListener('resize', function(){
   console.log('RESIZE')
   bar = document.getElementById("custom-toc");
-  if (bar.offsetHeight > window.innerHeight && !bar.className.includes('scroll')) {
-    bar.className = bar.className + " scroll";
+  if (bar.offsetHeight > window.innerHeight && !bar.className.includes('pre-scrollable')) {
+    bar.className = bar.className + " pre-scrollable";
   }else if(bar.offsetHeight < window.innerHeight) {
-    bar.className = bar.className.split(' scroll').join('');
+    bar.className = bar.className.split(' pre-scrollable').join('');
   };
 }, true)
 
