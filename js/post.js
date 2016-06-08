@@ -16,7 +16,7 @@ document.onscroll = function () {
   coords = content.getBoundingClientRect();
   widthToc = sticky.offsetWidth; 
   console.log(window.innerWidth);
-  if (coords.top <= 0 && window.innerWidth > 970) {
+  if (coords.top <= 0 && window.innerWidth > 990) {
     sticky.className = sticky.className.split(' affix').join('');
     sticky.className = sticky.className + " affix" 
     sticky.style = "top:38px; width:" + widthToc + "px;";
