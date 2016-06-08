@@ -7,8 +7,10 @@ window.onload = function () {
 window.addEventListener('resize', function(){
   console.log('RESIZE')
   bar = document.getElementById("custom-toc");
-  if (bar.offsetHeight > window.innerHeight ) {
-    bar.className = bar.className + " scroll"
+  if (bar.offsetHeight > window.innerHeight && !bar.className.includes('scroll')) {
+    bar.className = bar.className + " scroll";
+  }else if(bar.className.includes('scroll')) {
+    bar.className = sticky.className.split(' scroll').join('');
   };
 }, true)
 
