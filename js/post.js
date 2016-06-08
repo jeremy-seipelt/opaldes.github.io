@@ -4,11 +4,13 @@ window.onload = function () {
   panel = document.getElementById('insert-toc');
   panel.appendChild(toc);
 }
+window.addEventListener('resize', function(){
+  bar = document.getElementById("custom-toc");
+  if (bar.offsetHeight > window.innerHeight ) {
+    bar.className = bar.className + " scroll"
+  };
+}, true)
 
-bar = document.getElementById("content");
-if (bar.offsetHeight > window.innerHeight ) {
-  bar.className = bar.className + " scroll"
-};
 
 document.onscroll = function () {
   sticky = document.getElementById("custom-toc");
