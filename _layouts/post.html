@@ -13,9 +13,9 @@ layout: default
     </div>
   </div>
   <div class="col-md-3">
-    <div id="custom-toc">
+    <div id="post-nav">
     	
-     <div class="list-group">
+     <div class="list-group" id="topics">
        {% for post in site.posts reversed%}
        {% if post.tags == page.tags %}
        {% if post.url == page.url %}
@@ -29,7 +29,7 @@ layout: default
         {% endfor %}
     </div>
   
-     <div class="panel panel-post">
+     <div class="panel panel-post" id="toc-panel">
       <div class="panel-heading">
         <h4>{{ page.title }}</h4>
       </div>
