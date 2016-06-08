@@ -14,14 +14,7 @@ layout: default
   </div>
   <div class="col-md-3">
     <div id="custom-toc">
-     <div class="panel panel-post">
-      <div class="panel-heading">
-        <h4>{{ page.title }}</h4>
-      </div>
-      <div class="panel-body" id="insert-toc">
-      </div>
-    </div>
-    
+    	
      <div class="list-group">
        {% for post in site.posts reversed%}
        {% if post.tags == page.tags %}
@@ -37,6 +30,15 @@ layout: default
     </div>
     </div>
 </div>
+
+     <div class="panel panel-post">
+      <div class="panel-heading">
+        <h4>{{ page.title }}</h4>
+      </div>
+      <div class="panel-body" id="insert-toc">
+      </div>
+    </div>
+    
 
   </div>
   
