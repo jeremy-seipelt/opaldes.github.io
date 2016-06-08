@@ -72,6 +72,7 @@ footer{
   padding-right:15px;
 }
 
-.scroll {
-  overflow:scroll;
+#toc-panel {
+  box-shadow:none;
+  background-color:#f3f3f3;
 }
