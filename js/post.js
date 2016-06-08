@@ -15,7 +15,7 @@ window.addEventListener('resize', function(){
   bar = document.getElementById("custom-toc");
   if (bar.offsetHeight > window.innerHeight && !bar.className.includes('scroll')) {
     bar.className = bar.className + " scroll";
-  }else if(bar.className.includes('scroll')) {
+  }else if(bar.offsetHeight < window.innerHeight) {
     bar.className = bar.className.split(' scroll').join('');
   };
 }, true)
