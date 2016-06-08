@@ -16,7 +16,7 @@ window.addEventListener('resize', function(){
   if (bar.offsetHeight > window.innerHeight && !bar.className.includes('scroll')) {
     bar.className = bar.className + " scroll";
   }else if(bar.className.includes('scroll')) {
-    bar.className = sticky.className.split(' scroll').join('');
+    bar.className = bar.className.split(' scroll').join('');
   };
 }, true)
 
