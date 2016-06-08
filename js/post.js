@@ -5,6 +5,7 @@ window.onload = function () {
   panel.appendChild(toc);
 }
 window.addEventListener('resize', function(){
+  console.log('RESIZE')
   bar = document.getElementById("custom-toc");
   if (bar.offsetHeight > window.innerHeight ) {
     bar.className = bar.className + " scroll"
