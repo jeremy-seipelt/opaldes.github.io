@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmap-content xmlns="urn:xmind:xmap:xmlns:content:2.0" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" modified-by="jeremy" timestamp="1473078070669" version="2.0">
-  <sheet id="0ru0p9dol5ks3ofpafsj617b9q" modified-by="jeremy" theme="4r38ar19rjpapsl0rg5tqon5er" timestamp="1473078070669">
-    <topic id="1mqr9scdk8a7qi8b30rdk9netp" modified-by="jeremy" structure-class="org.xmind.ui.timeline.horizontal" timestamp="1473078050504">
-      <title>Next steps</title>
+<xmap-content xmlns="urn:xmind:xmap:xmlns:content:2.0" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" modified-by="jeremy" timestamp="1473086702395" version="2.0">
+  <sheet id="0ru0p9dol5ks3ofpafsj617b9q" modified-by="jeremy" theme="4r38ar19rjpapsl0rg5tqon5er" timestamp="1473086702395">
+    <topic id="1mqr9scdk8a7qi8b30rdk9netp" modified-by="jeremy" structure-class="org.xmind.ui.timeline.horizontal" timestamp="1473082933157">
+      <title>Roadmap</title>
       <children>
         <topics type="attached">
-          <topic id="0l6l5cndpvur8n6hfqpaimrtut" modified-by="mpaetz" timestamp="1473066939776">
-            <title>Ebay</title>
+          <topic id="0l6l5cndpvur8n6hfqpaimrtut" modified-by="jeremy" timestamp="1473079093284">
+            <title svg:width="500">EBAY</title>
           </topic>
-          <topic id="1pa915q2t5hi0his3o9b1bj7s6" modified-by="jeremy" timestamp="1473078039973">
-            <title>Rechteverwaltung,Dev</title>
+          <topic id="1pa915q2t5hi0his3o9b1bj7s6" modified-by="jeremy" timestamp="1473078756687">
+            <title>Rechteverwaltung,Upc</title>
           </topic>
-          <topic id="1nrca76j6nj3ivicji9ga9aojj" modified-by="jeremy" timestamp="1473078053438">
+          <topic id="1nrca76j6nj3ivicji9ga9aojj" modified-by="jeremy" timestamp="1473079103874">
             <title>Invididualisierung</title>
           </topic>
           <topic id="0sbd0rkvqns9tjvelc4jdkr7a2" modified-by="jeremy" timestamp="1473078055276">
@@ -25,6 +25,9 @@
           </topic>
           <topic id="62oacis1q03o9p63rrr9q5mbdt" modified-by="mpaetz" timestamp="1473065621185">
             <title>Zahlung/Versand</title>
+          </topic>
+          <topic id="6or8qdkku3dq7cpim4e56suj5g" modified-by="jeremy" timestamp="1473086702395">
+            <title>Aktueller Stand</title>
           </topic>
           <topic id="2kmloagfvj6ldp0ttcbd311tru" modified-by="mpaetz" timestamp="1473066674890">
             <title>Artikeleditor</title>
