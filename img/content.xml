@@ -1,49 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmap-content xmlns="urn:xmind:xmap:xmlns:content:2.0" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" modified-by="jeremy" timestamp="1473086702395" version="2.0">
-  <sheet id="0ru0p9dol5ks3ofpafsj617b9q" modified-by="jeremy" theme="4r38ar19rjpapsl0rg5tqon5er" timestamp="1473086702395">
-    <topic id="1mqr9scdk8a7qi8b30rdk9netp" modified-by="jeremy" structure-class="org.xmind.ui.timeline.horizontal" timestamp="1473082933157">
-      <title>Roadmap</title>
-      <children>
-        <topics type="attached">
-          <topic id="0l6l5cndpvur8n6hfqpaimrtut" modified-by="jeremy" timestamp="1473079093284">
-            <title svg:width="500">EBAY</title>
-          </topic>
-          <topic id="1pa915q2t5hi0his3o9b1bj7s6" modified-by="jeremy" timestamp="1473078756687">
-            <title>Rechteverwaltung,Upc</title>
-          </topic>
-          <topic id="1nrca76j6nj3ivicji9ga9aojj" modified-by="jeremy" timestamp="1473079103874">
-            <title>Invididualisierung</title>
-          </topic>
-          <topic id="0sbd0rkvqns9tjvelc4jdkr7a2" modified-by="jeremy" timestamp="1473078055276">
-            <title>Bedingungen I</title>
-          </topic>
-          <topic id="423o8bic26qafj86vbhoq2nqna" modified-by="jeremy" timestamp="1473078063454">
-            <title>Bedinungen II</title>
-          </topic>
-          <topic id="11jpark5lq11nvihkfuuilabsq" modified-by="jeremy" timestamp="1473078062715">
-            <title>Logging</title>
-          </topic>
-          <topic id="62oacis1q03o9p63rrr9q5mbdt" modified-by="mpaetz" timestamp="1473065621185">
-            <title>Zahlung/Versand</title>
-          </topic>
-          <topic id="6or8qdkku3dq7cpim4e56suj5g" modified-by="jeremy" timestamp="1473086702395">
-            <title>Aktueller Stand</title>
-          </topic>
-          <topic id="2kmloagfvj6ldp0ttcbd311tru" modified-by="mpaetz" timestamp="1473066674890">
-            <title>Artikeleditor</title>
-          </topic>
-          <topic id="4bs4nio778bh1jkl69ue33fcc5" modified-by="mpaetz" timestamp="1473066677049">
-            <title>CMS</title>
-          </topic>
-          <topic id="21rr20qo1lr6i47la0q0amf3pa" modified-by="jeremy" timestamp="1473078070669">
-            <title>Onboarding</title>
-          </topic>
-          <topic id="4oqpg4cftkovungkabglj44tpb" modified-by="mpaetz" timestamp="1473066024928">
-            <title>automatische Shoperstellung</title>
-          </topic>
-        </topics>
-      </children>
-    </topic>
-    <title>Arbeitsblatt 1</title>
-  </sheet>
-</xmap-content>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmap-content xmlns="urn:xmind:xmap:xmlns:content:2.0" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" modified-by="mpaetz" timestamp="1473179283294" version="2.0"><sheet id="0ru0p9dol5ks3ofpafsj617b9q" modified-by="mpaetz" theme="4r38ar19rjpapsl0rg5tqon5er" timestamp="1473179283294"><topic id="1mqr9scdk8a7qi8b30rdk9netp" modified-by="mpaetz" structure-class="org.xmind.ui.timeline.horizontal" timestamp="1473066939814"><title>Next steps</title><children><topics type="attached"><topic id="0l6l5cndpvur8n6hfqpaimrtut" modified-by="mpaetz" timestamp="1473179275906"><title>Ebay</title><notes><html><xhtml:p>Notiz</xhtml:p><xhtml:p>1asdasd</xhtml:p><xhtml:p>asd</xhtml:p><xhtml:p>sa</xhtml:p><xhtml:p>dsa</xhtml:p><xhtml:p>d</xhtml:p><xhtml:p/><xhtml:p>EBAY</xhtml:p><xhtml:p/></html><plain>Notiz
+1asdasd
+asd
+sa
+dsa
+d
+
+EBAY
+</plain></notes></topic><topic id="1pa915q2t5hi0his3o9b1bj7s6" modified-by="mpaetz" timestamp="1473179283294"><title>Rechteverwaltung</title><children><topics type="attached"><topic id="07i05ic9b3qj6seuoj7d52s7vk" modified-by="mpaetz" timestamp="1472831972340"><title>Rechte</title><children><topics type="attached"><topic id="1b0rkpnbk76613tko1asuv85e4" modified-by="mpaetz" timestamp="1472767474304"><title>Bereiche</title></topic><topic id="1d0uhll4fgh4ule90sm2crkvm5" modified-by="mpaetz" timestamp="1472767474304"><title>Teile</title></topic><topic id="7svnn1rgqa1g3pbageti5e8eki" modified-by="mpaetz" timestamp="1472831972311"><title>Optionen</title><children><topics type="attached"><topic id="3r94uuchpoiokaotqd9dk062j1" modified-by="mpaetz" timestamp="1472831946763"><title>Ansehen</title></topic><topic id="6t8958m09q4ro6aur3rj3icue7" modified-by="mpaetz" timestamp="1472831948901"><title>Bearbeiten</title></topic><topic id="7tm2d1mlricb594fo2etou3pcp" modified-by="mpaetz" timestamp="1472831950499"><title>Ausblenden</title></topic></topics></children></topic></topics></children></topic></topics></children><notes><html><xhtml:p>Notiz 2</xhtml:p><xhtml:p>a</xhtml:p><xhtml:p>d</xhtml:p><xhtml:p>asd</xhtml:p><xhtml:p>sad</xhtml:p><xhtml:p>sad</xhtml:p><xhtml:p/></html><plain>Notiz 2
+a
+d
+asd
+sad
+sad
+</plain></notes></topic><topic id="1nrca76j6nj3ivicji9ga9aojj" modified-by="mpaetz" timestamp="1473066702625"><title>Invididualisierung</title><children><topics type="attached"><topic id="7r9sj2i2vdksfpfhe52p7kgnib" modified-by="mpaetz" timestamp="1473066702632"><title>Übersichten</title><children><topics type="attached"><topic id="6ksbpu9sl3mkivol99et5qbcq8" modified-by="mpaetz" timestamp="1473066806075"><title>Filter</title><children><topics type="attached"><topic id="5i3h99q40k70js9c1dod4an4o3" modified-by="mpaetz" timestamp="1473066735419"><title>Spalten</title></topic><topic id="2c12a365phs8nlruh52vapk2q8" modified-by="mpaetz" timestamp="1473066738106"><title>von bis</title></topic><topic id="2id3igcrndotqmm9jnd7imqbmq" modified-by="mpaetz" timestamp="1473066813544"><title>Datum (inkl. Formate)</title></topic></topics></children></topic><topic id="2djrikllgaj6prr3tspjei4mns" modified-by="mpaetz" timestamp="1473066760432"><title>Export / Import</title><children><topics type="attached"><topic id="6rdcijbn0v14bfh87u109r0ruh" modified-by="mpaetz" timestamp="1473066775325"><title>(ggf. Sonderbedindungen SQL)</title></topic></topics></children></topic><topic id="4ojhvnnfvo4hpaukee3hdn9hfq" modified-by="mpaetz" timestamp="1473066702625"><title>DATEV</title></topic></topics></children></topic><topic id="1bt561hehpkr4kl2miqoeagk15" modified-by="mpaetz" timestamp="1472767474305"><title>Detailansichten</title></topic></topics></children></topic><topic id="0sbd0rkvqns9tjvelc4jdkr7a2" modified-by="mpaetz" timestamp="1472767474306"><title>Bedingungen I</title><children><topics type="attached"><topic id="2o4jnijlqqjuerk11ogrg5av5j" modified-by="mpaetz" timestamp="1472767474306"><title>Zentraleslog</title></topic><topic id="2c3tcl49ks7aj7re85too65uke" modified-by="mpaetz" timestamp="1472767474306"><title>Wenn -&gt; Dann</title></topic></topics></children></topic><topic id="423o8bic26qafj86vbhoq2nqna" modified-by="mpaetz" timestamp="1472831454538"><title>Bedinungen II</title><children><topics type="attached"><topic id="27l0c4nrsirfvbdf8fhmmbkoo6" modified-by="mpaetz" timestamp="1472767474307"><title>Prozesse</title></topic></topics></children></topic><topic id="11jpark5lq11nvihkfuuilabsq" modified-by="mpaetz" timestamp="1473025167303"><title>Logging</title><children><topics type="attached"><topic id="1prpj4l3nc3hmdk5poll6dc7g7" modified-by="mpaetz" timestamp="1472831515139"><title>Userinteraction</title></topic><topic id="0k6fbko9dgoprc2t9pttj2gqlm" modified-by="mpaetz" timestamp="1472831518395"><title>Errors</title></topic></topics></children></topic><topic id="62oacis1q03o9p63rrr9q5mbdt" modified-by="mpaetz" timestamp="1473065621185"><title>Zahlung/Versand</title></topic><topic id="2kmloagfvj6ldp0ttcbd311tru" modified-by="mpaetz" timestamp="1473066674890"><title>Artikeleditor</title></topic><topic id="4bs4nio778bh1jkl69ue33fcc5" modified-by="mpaetz" timestamp="1473066677049"><title>CMS</title></topic><topic id="21rr20qo1lr6i47la0q0amf3pa" modified-by="mpaetz" timestamp="1473066011270"><title>Onboarding</title><children><topics type="attached"><topic id="5u75m6d1la8ea6m9epg6b55mbh" modified-by="mpaetz" timestamp="1473066625040"><title>First steps</title><children><topics type="attached"><topic id="6kepks2rrp8j0nc3ql1cqeebnq" modified-by="mpaetz" timestamp="1473066142737"><title>Grundeinstellungen</title><children><topics type="attached"><topic id="0njevck7tec038usk4g12bk070" modified-by="mpaetz" timestamp="1473066120405"><title>Firma</title></topic><topic id="2hp9835aqtecipatg0otpr8nh2" modified-by="mpaetz" timestamp="1473066122740"><title>Emailadresse</title></topic><topic id="6gjf7m61v4fs8ul04tfu39rihk" modified-by="mpaetz" timestamp="1473066142730"><title>Domain</title></topic></topics></children></topic><topic id="5fi6ua0ef1hh1m87q5mc6o3i5s" modified-by="mpaetz" timestamp="1473065927515"><title>Bildeinstellungen</title><children><topics type="attached"><topic id="14t3u3kq9k95vmr2g20dhjl0f3" modified-by="mpaetz" timestamp="1473065928848"><title>Logo</title></topic></topics></children></topic><topic id="2tddb4414gbeor37a7qsu1qsv5" modified-by="mpaetz" timestamp="1473065807799"><title>mind. 3 Produkte + 1 Kategorie</title><children><topics type="attached"><topic id="0jj31kgva1sldk1qoc2t43o1pi" modified-by="mpaetz" timestamp="1473065787967"><title>manuell</title></topic></topics></children></topic><topic id="3ptsjh6tlebnj1o4cq1vp4ht88" modified-by="mpaetz" timestamp="1473065946287"><title>Zahlung/Versand prüfen ob angelegt</title></topic><topic id="562gfrf9obu1t1ir9880ce9onv" modified-by="mpaetz" timestamp="1473066646002"><title>CMS</title><children><topics type="attached"><topic id="7ba1tgtfpqhqosfba71p0lbs4o" modified-by="mpaetz" timestamp="1473066616628"><title>AGB</title></topic><topic id="62ilfr0d2te9kshcq35q6v17pg" modified-by="mpaetz" timestamp="1473066618899"><title>Widerruf</title></topic><topic id="6lahjqr951g5rpmkbg7d8oq1vp" modified-by="mpaetz" timestamp="1473066620986"><title>Impressum</title></topic><topic id="775992jpqe39n8m9e5vmdih6s0" modified-by="mpaetz" timestamp="1473066644914"><title>Versandseite</title></topic><topic id="0jg4frih66cg5a3vtjji8oh9jm" modified-by="mpaetz" timestamp="1473066647809"><title>Zahlungsseite</title></topic></topics></children></topic><topic id="7oqd9b7u2hcuvm8143rtt9mern" modified-by="mpaetz" timestamp="1473066261883"><title>Layout</title></topic></topics></children></topic><topic id="1n7j4ft5kvf5tmn1e9b4v7s8uj" modified-by="mpaetz" timestamp="1473065709303"><title>automatismen</title><children><topics type="attached"><topic id="1q48mqedg6ui4jfqm38r2k84kg" modified-by="mpaetz" timestamp="1473065709057"><title>am Ende Demoshopdeaktivieren</title></topic><topic id="79ah61qavslpfc6qdrvk1s3h8r" modified-by="mpaetz" timestamp="1473065729016"><title>Automatisch Elastic aktiviert</title><children><topics type="attached"><topic id="3hkaj4omudbg4bs0dq4nlif0j4" modified-by="mpaetz" timestamp="1473065731117"><title>generell</title></topic></topics></children></topic></topics></children></topic><topic id="7pd3iv97332d955mjrouis3vlb" modified-by="mpaetz" timestamp="1473065843155"><title>Kontrolle über Bereiche</title></topic></topics></children></topic><topic id="4oqpg4cftkovungkabglj44tpb" modified-by="mpaetz" timestamp="1473066024928"><title>automatische Shoperstellung</title></topic></topics></children></topic><title>Arbeitsblatt 1</title></sheet></xmap-content>
